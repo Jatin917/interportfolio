@@ -1,0 +1,140 @@
+@import '../../app.scss';
+
+.hero{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, black,rgba(0, 0, 0, 0.267));
+    z-index: 100;
+    padding: 0 20px;
+    // width: 100vw;
+    @include mobile{
+        // padding-top: 50px;
+    }
+    @include tablet{
+        // border: 2px solid red;
+        // left: 50%;
+        // right: 50%;
+    }
+    
+    .wrapper{
+        max-width: 1266px;
+        height: 100%;
+        margin: auto;
+        
+        @include mobile{
+            position: absolute;
+            top: 55%;
+            height: 50%;
+        }
+        .textContainer{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            width: 50%;
+            @include mobile{
+                width: 90%;
+                height: 100%;
+                top: 0;
+                gap: 10px;
+                margin:-60px  auto;
+            }
+            h2{
+                font-size: 2.2vw;
+                color:rebeccapurple;
+                letter-spacing: 6px;
+                @include largeTablet{
+                    font-size: 28px;
+                }
+                @include mobile{
+                    font-size: 2rem;
+                }
+                @include smallMobile {
+                    font-size: 20px;
+                  }
+            }
+            h1{
+                font-size: 6vw;
+                @include mobile{
+                    font-size: 2.78rem;
+                }
+                @include smallMobile {
+                    font-size: 35px;
+                  }
+                // @include largeTablet{
+                //     font-size: 70px;
+                // }
+                
+            }
+            .buttons{
+                // position: relative;
+                display: flex;
+                width: 100%;
+                // height: 100%;
+                button{
+                    padding: 20px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: white;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    z-index: 10;
+                    // position: absolute;
+                    @include smallMobile{
+                        padding: 13px;
+                    }
+                }
+            }
+        }
+        img{
+            width: 50px;
+        }
+    }
+    .imageContainer{
+        height: 100%;
+        position: absolute;
+        // border: 2px solid red;
+        top: 0;
+        right: 0;
+        z-index: 9;
+        margin-right: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mobile{
+            width: 100%;
+            height: 45%;
+            // left: 50%;
+            // right: 50%;
+            // right: 20%;
+            // left: 50%;
+        }
+        img{
+            height: 100%;
+            @include tablet{
+                // width: 90%;
+                height: 90%;
+            }
+            @include mobile{
+                width: 50%;
+                height: 100%;
+            }
+        }
+        
+    }
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom: -120px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 100%;
+        font-weight: 700;
+    }
+}

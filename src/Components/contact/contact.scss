@@ -1,0 +1,119 @@
+@import "../../app.scss";
+
+.contact {
+  height: 100vh;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 40px;
+  // border: 2px solid red;
+  overflow: hidden;
+
+  @include mobile {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include mobile {
+      gap: 15px;
+      text-align: center;
+      align-items: center;
+      // margin-top: 0px;
+    }
+
+    h1 {
+      font-size: 100px;
+      line-height: 88px;
+
+      @include mobile {
+        font-size: 36px;
+      }
+    }
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .formContainer {
+    flex: 1;
+    position: relative;
+    // border:2px solid red;
+    @include mobile {
+      padding: 15px 40px;
+      width: 100%;
+    }
+
+
+    .phoneSvg {
+      stroke: orange;
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      // border:2px solid red;
+
+      height: 100%;
+      @include mobile {
+        left: 20px;
+        // display: none;
+        width: 90%;
+      }
+      svg{
+        height: 450px;
+        width: 450px;
+        // border:2px solid red;
+        margin: auto;
+        @include mobile{
+          height: 85% !important;
+          width: 80% !important;
+        }
+        @include tablet{
+          width: 40vw;
+        }
+      }
+
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input,
+      textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+
+        @include mobile {
+          padding: 10px;
+        }
+      }
+
+      button {
+        padding: 20px;
+        border: none;
+        background-color: orange;
+        cursor: pointer;
+        font-weight: 500;
+        @include mobile {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
