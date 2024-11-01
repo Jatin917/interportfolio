@@ -1,82 +1,82 @@
 {
-  "hash": "c48e44cb",
-  "configHash": "8acff78a",
+  "hash": "4d3347c8",
+  "configHash": "bbfe9a36",
   "lockfileHash": "4b95109b",
-  "browserHash": "2b0f0765",
+  "browserHash": "5c2af860",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "8b1b7aaf",
+      "fileHash": "0320c90d",
       "needsInterop": true
     },
     "react-dom": {
       "src": "../../node_modules/react-dom/index.js",
       "file": "react-dom.js",
-      "fileHash": "3a723025",
+      "fileHash": "2a6f620e",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "f326c70b",
+      "fileHash": "9bed6c6a",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "67d4285d",
+      "fileHash": "9818ee79",
       "needsInterop": true
     },
     "@emailjs/browser": {
       "src": "../../node_modules/@emailjs/browser/es/index.js",
       "file": "@emailjs_browser.js",
-      "fileHash": "23b7428c",
+      "fileHash": "c49a4956",
       "needsInterop": false
     },
     "framer-motion": {
       "src": "../../node_modules/framer-motion/dist/es/index.mjs",
       "file": "framer-motion.js",
-      "fileHash": "4e8a33fe",
+      "fileHash": "3faa4535",
       "needsInterop": false
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "0706ae4e",
+      "fileHash": "283b4f53",
       "needsInterop": true
     },
     "react-icons/fa": {
       "src": "../../node_modules/react-icons/fa/index.esm.js",
       "file": "react-icons_fa.js",
-      "fileHash": "d3b2156a",
+      "fileHash": "7efda75c",
       "needsInterop": false
     },
     "react-icons/fi": {
       "src": "../../node_modules/react-icons/fi/index.esm.js",
       "file": "react-icons_fi.js",
-      "fileHash": "6446ba94",
+      "fileHash": "883258a6",
       "needsInterop": false
     },
     "react-icons/io5": {
       "src": "../../node_modules/react-icons/io5/index.esm.js",
       "file": "react-icons_io5.js",
-      "fileHash": "209f83dd",
+      "fileHash": "ef4255fb",
       "needsInterop": false
     },
     "react-icons/md": {
       "src": "../../node_modules/react-icons/md/index.esm.js",
       "file": "react-icons_md.js",
-      "fileHash": "ccd269e8",
+      "fileHash": "402bf555",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-TGKKAFKZ": {
-      "file": "chunk-TGKKAFKZ.js"
-    },
     "chunk-BBDXWS37": {
       "file": "chunk-BBDXWS37.js"
+    },
+    "chunk-TGKKAFKZ": {
+      "file": "chunk-TGKKAFKZ.js"
     },
     "chunk-2PIBWAMS": {
       "file": "chunk-2PIBWAMS.js"
